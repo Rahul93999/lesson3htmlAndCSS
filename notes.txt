@@ -9,6 +9,11 @@ div - it's a placeholder
 use right tag for right purpose
 if no tag has use div
 people with specially aided people who can't read and differentiate b/w colors if we use symmantic tags there is an  accessibility tree which will get created. There are screen readers  it reads website if we use proper tags
+
+<!-- header is centric footer & nav end to end -->
+   <!-- entire row in its self is called bock element
+    when we write cometing and it doesnot take the row if it takes its own space  (h3 div p are block elements)(small is inline element )
+Inline elements means if we place two such elements aside they dont take the entire row like -->
 undraw.co
 tailwind colors
 unsplash
@@ -16,3 +21,15 @@ unsplash
 something which takes entire row is a block element
 something which takes only its own space is called inline element(<a></a>)
 mozilla developer network
+
+selectors
+all tags => nothing
+body{
+
+}
+h1{
+
+}
+for specific tag use
+id=> #
+class => .

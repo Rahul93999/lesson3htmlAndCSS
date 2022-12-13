@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- first way to add css -->
+    <!-- <style>
+        body{
+            color : red;
+        }
+    </style> -->
+    <!-- third way -->
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>rahul's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+    <h1 id="lib-header">rahul's component library</h1>
+    <!-- style="color: red" -->
+    <p class="para">I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
 
     <hr > <!-- it's a line = thematic break called hr-->
 
@@ -16,26 +25,22 @@
 
     <h1>This is the biggest heading</h1>
     <h2>This is second biggest</h2>
-    <p>Normal text, this is free flowing and will wrap at the end like a paragraph</p>
+    <p class="para">Normal text, this is free flowing and will wrap at the end like a paragraph</p>
     <small>This is relatively smaller text</small>
 
     <hr >
-    <!-- people with specially aided people who can't read and differentiate b/w colors if we use symmantic tags there is an  accessibility tree which will get created. There are screen readers  it reads website if we use proper tags -->
-    <!-- container-is an empty space have no meaning :: div is place holder-->
-
+    
     <h2>@containers</h2>
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till end of the page</div>
+    <div class="para">This is a fluid container and it will go till end of the page</div>
 
-    <!-- header is centric footer & nav end to end -->
+    
     <h3>center container</h3>
-    <div>This is a centered container and it will go till specified width</div>
+    <div class="para">This is a centered container and it will go till specified width</div>
 
     <hr >
-    <!-- entire row in its self is called bock element
-    when we write cometing and it doesnot take the row if it takes its own space  (h3 div p are block elements)(small is inline element )
-Inline elements means if we place two such elements aside they dont take the entire row like -->
+ 
     <h2>@Links</h2>
     <a href="/">Primary Link</a>
     <a href="/">Secondary Link </a>

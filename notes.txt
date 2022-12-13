@@ -12,7 +12,7 @@ people with specially aided people who can't read and differentiate b/w colors i
 
 <!-- header is centric footer & nav end to end -->
    <!-- entire row in its self is called bock element
-    when we write cometing and it doesnot take the row if it takes its own space  (h3 div p are block elements)(small is inline element )
+    when we write cometing and it doesnot take the row if it takes its own space  (h3 div p are block elements)(small,span ... inline elements )
 Inline elements means if we place two such elements aside they dont take the entire row like -->
 undraw.co
 tailwind colors
@@ -35,3 +35,5 @@ id=> #
 class => .
 
 1. google fonts => mont..
+
+span is like div but it is inline element

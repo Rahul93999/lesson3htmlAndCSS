@@ -1,0 +1,11 @@
+6 kinds of heading
+semantic html
+<div> - opening tag
+</div> - closing tag
+<div class="something">here content of tag</div>
+class is an attribute here
+some tags has do meaning
+div - it's a placeholder
+use right tag for right purpose
+if no tag has use div
+people with specially aided people who can't read and differentiate b/w colors if we use symmantic tags there is an  accessibility tree which will get created. There are screen readers  it reads website if we use proper tags

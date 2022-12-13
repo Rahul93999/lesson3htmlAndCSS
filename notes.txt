@@ -33,3 +33,5 @@ h1{
 for specific tag use
 id=> #
 class => .
+
+1. google fonts => mont..
